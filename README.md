@@ -23,6 +23,7 @@ After installation, you can play games with the following commands:
 - `brain-even` - guess if the number is even
 - `brain-calc` - guess the result of a mathematical expression
 - `brain-gcd` - guess the greater common divisor of two numbers
+- `brain-progression` - guess missing number in arithmetic progression
 ---
 #### brain-even example
 
@@ -35,3 +36,7 @@ After installation, you can play games with the following commands:
 #### brain-gcd example
 
 [![brain gcd example](media/brain-gcd.gif)](https://asciinema.org/a/KCp3uuKiXg5FpNDMgcbT8aPuV)
+
+#### brain-progression example
+
+[![brain progression example](media/brain-progression.gif)](https://asciinema.org/a/WVaF31ycQ00nrMwvjyMI5W460)
