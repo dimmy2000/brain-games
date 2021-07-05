@@ -5,10 +5,6 @@ from operator import mul, add, sub
 DESCRIPTION = """What is the result of the expression?"""
 
 
-def is_even(number: int) -> bool:
-    return number % 2 == 0
-
-
 def get_expression_and_answer() -> tuple:
     operators = {
         '+': add,
