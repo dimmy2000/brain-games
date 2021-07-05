@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.6.0"
+version = "0.6.1"
 description = "Brain Games is a bundle of math games with command line interface."
 authors = ["dimmy2000 <dimsamoylenko@gmail.com>"]
 packages = [

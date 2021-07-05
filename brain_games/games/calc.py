@@ -1,3 +1,4 @@
+"""This module contains logic of brain-calc game."""
 import random
 from operator import mul, add, sub
 
@@ -6,6 +7,7 @@ DESCRIPTION = """What is the result of the expression?"""
 
 
 def get_expression_and_answer() -> tuple:
+    """Creates task expression and correct answer."""
     operators = {
         '+': add,
         '-': sub,

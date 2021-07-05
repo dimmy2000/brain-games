@@ -1,3 +1,4 @@
+"""This module contains main game engine."""
 import prompt
 from brain_games.cli import welcome_user
 
@@ -5,6 +6,7 @@ GAME_DURATION = 3
 
 
 def play(game):
+    """Common game logic."""
     name: str = welcome_user()
     score: int = 0
     print(game.DESCRIPTION)

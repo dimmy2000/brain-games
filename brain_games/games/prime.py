@@ -18,6 +18,7 @@ def is_prime(number: int) -> bool:
 
 
 def get_expression_and_answer() -> tuple:
+    """Creates task expression and correct answer."""
     answers = ["no", "yes"]
     number = random.randint(1, 101)
     correct_answer = answers[is_prime(number)]
