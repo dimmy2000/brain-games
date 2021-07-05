@@ -9,8 +9,9 @@
 
 ### Installation
 
-Clone this repository to your local machine and run the following commands in the shell:
+Run the following commands in the shell:
 ```commandline
+git clone https://github.com/dimmy2000/python-project-lvl1.git
 cd python-project-lvl1
 make build
 make package-install
@@ -21,6 +22,7 @@ make package-install
 After installation, you can play games with the following commands:
 - `brain-even` - guess if the number is even
 - `brain-calc` - guess the result of a mathematical expression
+- `brain-gcd` - guess the greater common divisor of two numbers
 ---
 #### brain-even example
 
@@ -29,3 +31,7 @@ After installation, you can play games with the following commands:
 #### brain-calc example
 
 [![brain calc example](media/brain-calc.gif)](https://asciinema.org/a/Q49CyONVtreZ5xbpJ4jm3QDSI)
+
+#### brain-gcd example
+
+[![brain gcd example](media/brain-gcd.gif)](https://asciinema.org/a/KCp3uuKiXg5FpNDMgcbT8aPuV)

@@ -1,13 +1,10 @@
 import prompt
 from brain_games.cli import welcome_user
-from typing import Any, Callable, TypeVar
 
 GAME_DURATION = 3
 
-F = TypeVar('F', bound=Callable[..., Any])
 
-
-def play(game: F) -> None:
+def play(game):
     name: str = welcome_user()
     score: int = 0
     print(game.DESCRIPTION)
