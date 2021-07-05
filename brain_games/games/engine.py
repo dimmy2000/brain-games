@@ -1,18 +1,20 @@
 import prompt
 from brain_games.cli import welcome_user
-
+from typing import Any, Callable, TypeVar
 
 GAME_DURATION = 3
 
+F = TypeVar('F', bound=Callable[..., Any])
 
-def play(game):
-    name = welcome_user()
-    score = 0
+
+def play(game: F) -> None:
+    name: str = welcome_user()
+    score: int = 0
     print(game.DESCRIPTION)
     while True:
         correct_answer, expression = game.get_expression_and_answer()
         print(f"Question: {expression}")
-        answer = prompt.string("Your answer: ")
+        answer: str = prompt.string("Your answer: ")
         if answer == correct_answer:
             print("Correct!")
             score += 1
