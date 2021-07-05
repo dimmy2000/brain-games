@@ -20,10 +20,11 @@ make package-install
 ### Usage
 
 After installation, you can play games with the following commands:
-- `brain-even` - guess if the number is even
+- `brain-even` - guess if the given number is even
 - `brain-calc` - guess the result of a mathematical expression
 - `brain-gcd` - guess the greater common divisor of two numbers
 - `brain-progression` - guess missing number in arithmetic progression
+- `brain-prime` - guess if the given number is prime
 ---
 #### brain-even example
 
@@ -40,3 +41,7 @@ After installation, you can play games with the following commands:
 #### brain-progression example
 
 [![brain progression example](media/brain-progression.gif)](https://asciinema.org/a/WVaF31ycQ00nrMwvjyMI5W460)
+
+#### brain-prime example
+
+[![brain prime example](media/brain-prime.gif)](https://asciinema.org/a/ZB27CWuVc64PqehjBzw3ZaInT)
